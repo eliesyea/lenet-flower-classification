@@ -1,0 +1,30 @@
+============================================================
+RINGKASAN TRAINING LENET UNTUK KLASIFIKASI BUNGA
+(Menggunakan 50 gambar per kelas)
+============================================================
+
+Dataset: flowers_dataset
+Filter spasial: gaussian
+Sampel per kelas: 50
+Total gambar: 250
+Training samples: 200
+Validation samples: 50
+Input shape: (32, 32, 3)
+Jumlah kelas: 5
+Kelas: daisy, dandelion, rose, sunflower, tulip
+
+Hyperparameters:
+  - Batch size: 16
+  - Epochs: 30
+  - Learning rate: 0.001
+
+Hasil terbaik:
+  - Best validation accuracy: 0.5400 (54.00%)
+  - Best epoch: 4
+
+Hasil akhir:
+  - Validation Loss: 1.0457
+  - Validation Accuracy: 0.5200 (52.00%)
+
+Model terbaik disimpan di: best_lenet_flower_model.h5
+Plot training disimpan di: training_history.png
